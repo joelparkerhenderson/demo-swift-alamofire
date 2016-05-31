@@ -22,7 +22,7 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
 
   * If you prefer, you can add it by using a dynamic framework or using Cocoapods.
 
-## Run some networking code
+## Create networking code
 
 1. Edit `ViewController.swift`.
 
@@ -47,26 +47,28 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
 		  …
 		}
 
+## Run
+
 1. Run the app. The screen shows the response result value string, which looks something like this:
 
         {
           "args": {},
           "headers": {
-          "Accept": "*/*",
-          "Accept-Encoding": "gzip;q=1.0, compress;q=0.5",
-          "Accept-Language": "en-US;q=1.0",
-          "Host": "httpbin.org",
-          "User-Agent": "MyApp/com.example.MyApp …"
-        },
-        "origin": "207.237.149.238",
-        "url": "https://httpbin.org/get"
-      }
+            "Accept": "*/*",
+            "Accept-Encoding": "gzip;q=1.0, compress;q=0.5",
+            "Accept-Language": "en-US;q=1.0",
+            "Host": "httpbin.org",
+            "User-Agent": "MyApp/com.example.MyApp …"
+          },
+          "origin": "207.237.149.238",
+          "url": "https://httpbin.org/get"
+        }
 
 
 ## Tracking
 
 * Package: demo_swift_objectmapper
-* Version: 1.0.0
+* Version: 1.0.1
 * Created: 2016-05-30
 * Updated: 2016-05-30
 * License: GPL
