@@ -49,7 +49,9 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
 
 ## Run
 
-1. Run the app. The screen shows the response result value string, which looks something like this:
+1. Run the app.
+
+1. The screen shows the response result value string, which looks something like this.
 
         {
           "args": {},
