@@ -67,7 +67,7 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
 
 ## Tracking
 
-* Package: demo_swift_objectmapper
+* Package: demo_swift_alamofire
 * Version: 1.0.1
 * Created: 2016-05-30
 * Updated: 2016-05-30
