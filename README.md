@@ -22,11 +22,11 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
 
   * If you prefer, you can add it by using a dynamic framework or using Cocoapods.
 
-## Create networking code
+## Add Alamofire
 
 1. Edit `ViewController.swift`.
 
-1. Add simple code:
+1. Add Alamofire networking code:
 
         import UIKit
         import Alamofire
@@ -47,11 +47,7 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
 		  …
 		}
 
-## Run
-
-1. Run the app.
-
-1. The screen shows the response result value string, which looks something like this.
+1. Verify Alamofire works by runing the app. The screen shows the response result value string, which looks something like this.
 
         {
           "args": {},
@@ -66,12 +62,11 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
           "url": "https://httpbin.org/get"
         }
 
-
 ## Tracking
 
 * Package: demo_swift_alamofire
-* Version: 1.0.1
+* Version: 1.0.2
 * Created: 2016-05-30
-* Updated: 2016-05-30
+* Updated: 2016-06-02
 * License: GPL
 * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
