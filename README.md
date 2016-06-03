@@ -40,7 +40,7 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
             Alamofire.request(.GET, "https://httpbin.org/get")
               .validate()
               .responseString { response in
-                 demoTextView.text = response.result.value
+                 self.demoTextView.text = response.result.value
                }
              }
           }
