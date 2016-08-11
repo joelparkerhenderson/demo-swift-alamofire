@@ -72,8 +72,8 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
 ## Tracking
 
 * Package: demo_swift_alamofire
-* Version: 1.0.2
+* Version: 1.0.3
 * Created: 2016-05-30
-* Updated: 2016-06-02
-* License: GPL
+* Updated: 2016-08-11
+* License: BSD, GPL, MIT
 * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
