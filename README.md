@@ -1,6 +1,13 @@
 # Demo Swift Alamofire
 
-This is a demonstration of Apple iOS Xcode using the Swift language to create a project with the Alamofire networking framework.
+This demonstration shows:
+
+  * The [Swift](http://swift.org) programming language with
+    [Apple](http://apple.com)
+    [iOS](http://www.apple.com/ios/)
+    [Xcode](https://developer.apple.com/xcode/)
+
+  * The [Alamofire](https://github.com/Alamofire/Alamofire) networking framework.
 
 This README describes how to create the project, if you want to try doing it yourself.
 
