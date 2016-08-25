@@ -31,6 +31,8 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
 
   * If you prefer, you can add it by using a dynamic framework or using Cocoapods.
 
+  * Need help with Carthage? See our repo [demo_swift_carthage](https://github.com/joelparkerhenderson/demo_swift_carthage).
+
 ## Add Alamofire
 
 1. Edit `ViewController.swift`.
