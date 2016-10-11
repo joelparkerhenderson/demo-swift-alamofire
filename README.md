@@ -4,12 +4,12 @@
 
 This demonstration shows:
 
-  * The [Swift](http://swift.org) programming language with
+  * The [Swift 3](http://swift.org) programming language with
     [Apple](http://apple.com)
-    [iOS](http://www.apple.com/ios/)
-    [Xcode](https://developer.apple.com/xcode/)
+    [iOS 10](http://www.apple.com/ios/)
+    [Xcode 8](https://developer.apple.com/xcode/)
 
-  * The [Alamofire](https://github.com/Alamofire/Alamofire) networking framework.
+  * The [Alamofire 4](https://github.com/Alamofire/Alamofire) networking framework.
 
 This README describes how to create the project, if you want to try doing it yourself.
 
@@ -48,15 +48,15 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
 
           override func viewDidLoad() {
             super.viewDidLoad()
-            Alamofire.request(.GET, "https://httpbin.org/get")
+            Alamofire.request("https://httpbin.org/get")
               .validate()
               .responseString { response in
                  self.demoTextView.text = response.result.value
                }
              }
           }
-		  …
-		}
+          …
+        }
 
 1. Verify Alamofire works by runing the app. The screen shows the response result value string, which looks something like this.
 
@@ -76,8 +76,8 @@ To learn more about Swift and Alamofire, see the official documentation for [Ala
 ## Tracking
 
 * Package: demo_swift_alamofire
-* Version: 1.0.3
+* Version: 2.0.0
 * Created: 2016-05-30
-* Updated: 2016-08-11
+* Updated: 2016-10-10
 * License: BSD, GPL, MIT
 * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
