@@ -9,7 +9,7 @@ This demonstration shows:
     [iOS](http://www.apple.com/ios/)
     [Xcode](https://developer.apple.com/xcode/)
 
-  * The [Alamofire 4](https://github.com/Alamofire/Alamofire) networking framework.
+  * The [Alamofire](https://github.com/Alamofire/Alamofire) networking framework.
 
 This README describes how to create the project, if you want to try doing it yourself.
 
