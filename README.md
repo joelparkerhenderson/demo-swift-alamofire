@@ -4,16 +4,25 @@
 
 This demonstration shows:
 
-  * The [Swift 3](http://swift.org) programming language with
+  * The [Swift](http://swift.org) programming language with
     [Apple](http://apple.com)
-    [iOS 10](http://www.apple.com/ios/)
-    [Xcode 8](https://developer.apple.com/xcode/)
+    [iOS](http://www.apple.com/ios/)
+    [Xcode](https://developer.apple.com/xcode/)
 
   * The [Alamofire 4](https://github.com/Alamofire/Alamofire) networking framework.
 
 This README describes how to create the project, if you want to try doing it yourself.
 
 To learn more about Swift and Alamofire, see the official documentation for [Alamofire](https://github.com/Alamofire/Alamofire)
+
+There are multiple git branches, so pick the one you want:
+
+  * swift-4: Swift version 4, iOS version 9, Xcode version 11. 
+
+  * swift-3: Swift version 3, iOS version 8, Xcode version 10.
+
+  * swift-2: Swift version 2, iOS version 7, Xcode version 9.
+
 
 ## How to create the project
 
