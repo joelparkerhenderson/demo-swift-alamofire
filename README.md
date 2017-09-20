@@ -28,19 +28,19 @@ There are multiple git branches, so pick the one you want:
 
 1. Launch Xcode and create a new project. We call ours "Demo Swift Alamofire".
 
-  * Need help? See our repo [demo_swift_hello_world](https://github.com/joelparkerhenderson/demo_swift_hello_world).
+    * Need help? See our repo [demo_swift_hello_world](https://github.com/joelparkerhenderson/demo_swift_hello_world).
 
-1. Create a simple way to print some text to the screen, such as a text view with an IBOutlet named "demoTextView".
+2. Create a simple way to print some text to the screen, such as a text view with an IBOutlet named "demoTextView".
 
-  * Need help? See our repo [demo_swift_text_view](https://github.com/joelparkerhenderson/demo_swift_text_view).
+    * Need help? See our repo [demo_swift_text_view](https://github.com/joelparkerhenderson/demo_swift_text_view).
 
-1. Add Alamofire to the project.
+3. Add Alamofire to the project.
 
-  * To add Alamofire as a dependency, we prefer using Carthage.
+    * To add Alamofire as a dependency, we prefer using Carthage.
 
-  * If you prefer, you can add it by using a dynamic framework or using Cocoapods.
+    * If you prefer, you can add it by using a dynamic framework or using Cocoapods.
 
-  * Need help with Carthage? See our repo [demo_swift_carthage](https://github.com/joelparkerhenderson/demo_swift_carthage).
+    * Need help with Carthage? See our repo [demo_swift_carthage](https://github.com/joelparkerhenderson/demo_swift_carthage).
 
 ## Add Alamofire
 
@@ -85,8 +85,8 @@ There are multiple git branches, so pick the one you want:
 ## Tracking
 
 * Package: demo_swift_alamofire
-* Version: 2.0.0
+* Version: 4.0.0
 * Created: 2016-05-30
-* Updated: 2016-10-10
+* Updated: 2017-09-20
 * License: BSD, GPL, MIT
 * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
