@@ -9,6 +9,7 @@
 build/
 Build/
 DerivedData/
+*/Carthage/Checkouts/
 
 ## Settings
 *.pbxuser
