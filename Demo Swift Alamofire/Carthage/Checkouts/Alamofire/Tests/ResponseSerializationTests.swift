@@ -1,7 +1,7 @@
 //
 //  ResponseSerializationTests.swift
 //
-//  Copyright (c) 2014-2016 Alamofire Software Foundation (http://alamofire.org/)
+//  Copyright (c) 2014-2017 Alamofire Software Foundation (http://alamofire.org/)
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -44,7 +44,7 @@ class DataResponseSerializationTestCase: BaseTestCase {
     func testThatDataResponseSerializerSucceedsWhenDataIsNotNil() {
         // Given
         let serializer = DataRequest.dataResponseSerializer()
-        let data = "data".data(using: String.Encoding.utf8)!
+        let data = "data".data(using: .utf8)!
 
         // When
         let result = serializer.serializeResponse(nil, nil, data, nil)
