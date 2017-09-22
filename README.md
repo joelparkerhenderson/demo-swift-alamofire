@@ -35,13 +35,15 @@ Create a simple way to print some text to the screen.
 
   * We create a text view object and IBOutlet named "demoTextView".
 
-  * [Help](doc/setup/create_a_text_view.md).
+  * [Help](doc/setup/create_a_text_view.md)
 
 Add the Alamofire framework. We suggest using Carthage or Cocoapods.
 
   * Carthage `Cartfile`:
 
+    ```
     github "Alamofire/Alamofire"
+    ```
 
   * [Help](doc/setup/add_carthage_frameworks.md)
 
