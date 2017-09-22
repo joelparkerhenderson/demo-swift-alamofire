@@ -6,87 +6,96 @@ This demonstration shows:
 
   * The [Swift](http://swift.org) programming language with
     [Apple](http://apple.com)
-    [iOS](http://www.apple.com/ios/)
     [Xcode](https://developer.apple.com/xcode/)
+    [iOS](http://www.apple.com/ios/)
 
   * The [Alamofire](https://github.com/Alamofire/Alamofire) networking framework.
 
-This README describes how to create the project, if you want to try doing it yourself.
+There are multiple git branches so pick the one you want:
 
-To learn more about Swift and Alamofire, see the official documentation for [Alamofire](https://github.com/Alamofire/Alamofire)
+  * swift-4-xcode-9: Swift version 4, Xcode version 9, iOS version 11.
 
-There are multiple git branches, so pick the one you want:
+  * swift-3-xcode-8: Swift version 3, Xcode version 8, iOS version 10.
 
-  * swift-4: Swift version 4, iOS version 9, Xcode version 11. 
+To use this project:
 
-  * swift-3: Swift version 3, iOS version 8, Xcode version 10.
+  * You can clone this repo.
 
-  * swift-2: Swift version 2, iOS version 7, Xcode version 9.
+  * Or you can create the project yourself by using this README that explains how to do it.
 
 
-## How to create the project
+## Create the project
 
-1. Launch Xcode and create a new project. We call ours "Demo Swift Alamofire".
+Launch Xcode and create a new project. We call ours "Demo Swift Alamofire".
 
-    * Need help? See our repo [demo_swift_hello_world](https://github.com/joelparkerhenderson/demo_swift_hello_world).
+  * Need help? See our repo [demo_swift_hello_world](https://github.com/joelparkerhenderson/demo_swift_hello_world).
 
-2. Create a simple way to print some text to the screen, such as a text view with an IBOutlet named "demoTextView".
+Create a simple way to print some text to the screen, such as a text view with an IBOutlet named "demoTextView".
 
-    * Need help? See our repo [demo_swift_text_view](https://github.com/joelparkerhenderson/demo_swift_text_view).
+  * Need help? See our repo [demo_swift_text_view](https://github.com/joelparkerhenderson/demo_swift_text_view).
 
-3. Add Alamofire to the project.
+Add Alamofire framework to the project, such as via Carthage, or Cocoapods, or Swift Package Manager.
 
-    * To add Alamofire as a dependency, we prefer using Carthage.
+  * Need help with Carthage? See our repo [demo_swift_carthage](https://github.com/joelparkerhenderson/demo_swift_carthage) and add `Cartfile` item ` github "Alamofire/Alamofire"`
 
-    * If you prefer, you can add it by using a dynamic framework or using Cocoapods.
-
-    * Need help with Carthage? See our repo [demo_swift_carthage](https://github.com/joelparkerhenderson/demo_swift_carthage).
 
 ## Add Alamofire
 
-1. Edit `ViewController.swift`.
+Edit `ViewController.swift`.
 
-1. Add Alamofire networking code:
+Add Alamofire networking code:
 
-        import UIKit
-        import Alamofire
+    import UIKit
+    import Alamofire
 
-        class ViewController: UIViewController {
+    class ViewController: UIViewController {
 
-          @IBOutlet weak var demoTextView: UITextView!
+      @IBOutlet weak var demoTextView: UITextView!
 
-          override func viewDidLoad() {
-            super.viewDidLoad()
-            Alamofire.request("https://httpbin.org/get")
-              .validate()
-              .responseString { response in
-                 self.demoTextView.text = response.result.value
-               }
-             }
-          }
-          …
-        }
+      override func viewDidLoad() {
+        super.viewDidLoad()
+        Alamofire.request("https://httpbin.org/get")
+          .validate()
+          .responseString { response in
+             self.demoTextView.text = response.result.value
+           }
+         }
+      }
+      …
+    }
 
-1. Verify Alamofire works by runing the app. The screen shows the response result value string, which looks something like this.
 
-        {
-          "args": {},
-          "headers": {
-            "Accept": "*/*",
-            "Accept-Encoding": "gzip;q=1.0, compress;q=0.5",
-            "Accept-Language": "en-US;q=1.0",
-            "Host": "httpbin.org",
-            "User-Agent": "MyApp/com.example.MyApp …"
-          },
-          "origin": "207.237.149.238",
-          "url": "https://httpbin.org/get"
-        }
+## Run
+
+Run the project.
+
+  * Xcode → Product → Run
+
+The Simulator launches.
+  
+The Simulator screen shows the response result value string, which looks something like this.
+
+    {
+      "args": {},
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip;q=1.0, compress;q=0.5",
+        "Accept-Language": "en-US;q=1.0",
+        "Host": "httpbin.org",
+        "User-Agent": "MyApp/com.example.MyApp …"
+      },
+      "origin": "207.237.149.238",
+      "url": "https://httpbin.org/get"
+    }
+
+Congratulations! You're successful!
+
 
 ## Tracking
 
 * Package: demo_swift_alamofire
-* Version: 4.0.0
+* Version: 3.0.0
 * Created: 2016-05-30
-* Updated: 2017-09-20
+* Updated: 2017-09-22
 * License: BSD, GPL, MIT
-* Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
+* Contact: Joel Parker Henderson (http://joelparkerhenderson.com)
