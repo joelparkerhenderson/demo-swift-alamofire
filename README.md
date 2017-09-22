@@ -39,7 +39,9 @@ Create a simple way to print some text to the screen.
 
 Add the Alamofire framework. We suggest using Carthage or Cocoapods.
 
-  * The repo is `github "Alamofire/Alamofire"`. 
+  * Carthage `Cartfile`:
+
+    github "Alamofire/Alamofire"
 
   * [Help](doc/setup/add_carthage_frameworks.md)
 
