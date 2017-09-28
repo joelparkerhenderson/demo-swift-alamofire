@@ -16,7 +16,9 @@ This demonstration shows:
 
 To use this demo, you can clone this repo, or you can use this README to create your own project.
 
-If you clone this repo, then be aware that there are multiple git branches, so pick the one you want.
+There are multiple git branches so pick the one you want:
+
+  * master: current Swift, Xcode, iOS; equivalent to branch swift-4-xocde-9.
 
   * swift-4-xcode-9: Swift version 4, Xcode version 9, iOS version 11.
 
@@ -27,7 +29,7 @@ If you clone this repo, then be aware that there are multiple git branches, so p
 
 Launch Xcode and create a new project. 
 
-  * Use iOS template "Single View Application" and Product Name "Demo Swift Alamofire"
+  * Use iOS template **Single View Application** then **Product Name** is **Demo Swift Alamofire**
 
   * [Help](doc/setup/create_a_new_xcode_project.md)
 
@@ -45,7 +47,7 @@ Add the Alamofire framework. We suggest using Carthage or Cocoapods.
     github "Alamofire/Alamofire"
     ```
 
-  * [Help](doc/setup/add_carthage_frameworks.md)
+  * [Help](doc/setup/carthage_setup.md)
 
 
 ## Add Alamofire
@@ -69,7 +71,6 @@ class ViewController: UIViewController {
       .responseString { response in
          self.demoTextView.text = response.result.value
        }
-    }
     …
 ```
 
